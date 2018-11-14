@@ -7,7 +7,8 @@ function setup() {
 }
 
 function draw() {
-  customShape(); //calling the shape drawing function
+  customShape();
+  // ^^^ calling the shape drawing function
 
   //this is the refresh function, so every 10 seconds it will automatically refresh
   setTimeout(function() {
